@@ -1,0 +1,138 @@
+body{
+    background-color: #323232;
+    font-family: 'Aldrich', sans-serif;
+    display: flex;
+    min-height: 98vh;
+    flex-direction: column;
+}
+
+
+/*image rotation */
+img{
+    height: 290px;
+    width: auto;
+    position: relative;
+    text-align: center;
+    animation-name: spin;
+    animation-duration: 30000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+
+    animation-play-state: paused;
+    /* transform: rotate(3deg); */
+     /* transform: rotate(0.3rad);/ */
+     /* transform: rotate(3grad); */ 
+     /* transform: rotate(.03turn);  */
+  }
+  
+  @keyframes spin {
+      from {
+          transform:rotate(0deg);
+      }
+      to {
+          transform:rotate(360deg);
+      }
+      
+  }
+
+.music-container.play .img-container img {
+    animation-play-state: running;
+  }
+  
+
+  
+.img-container {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+
+
+
+
+
+.studyfm_text{
+    color: #B1B1B1;
+    font-size: 32px;
+    margin-top: -3px;
+}
+
+footer{
+    margin-top: auto;
+}
+
+.notion_doc{
+    color: #B1B1B1;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.notion_doc:hover {
+    color: #ffff;
+    transition: 0.3s;
+}
+
+img{
+    border-radius: 50%;
+background: #323232;
+box-shadow:  8px 8px 32px #2b2b2b,
+             -8px -8px 32px #393939;
+}
+
+.vishnudhanda{
+    text-decoration: none;
+    flex-direction: column;
+    display: flexbox;
+    text-align: right;
+    float: right;
+    color: #B1B1B1;
+}
+
+
+.action-btn {
+    background-color: transparent;
+    border: 0;
+    color: #B1B1B1;
+    font-size: 30px;
+    cursor: pointer;
+    padding-right: 1px;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 9999;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+
+.fa-pause{
+    padding-right: 3px;
+}
+
+.action-btn:hover {
+    color: rgb(207, 207, 207);
+    transition: 0.3s ease-in;
+}
+
+
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+.vishnudhanda{
+    margin-top: 5px;
+    text-decoration: none;
+    flex-direction: column;
+    display: flexbox;
+    text-align: right;
+    float: right;
+    color: #B1B1B1;
+}
+}
