@@ -4,7 +4,6 @@ body{
     display: flex;
     min-height: 98vh;
     flex-direction: column;
-    max-height: fit-content;
 }
 
 
