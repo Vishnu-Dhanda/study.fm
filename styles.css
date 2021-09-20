@@ -46,6 +46,7 @@ img{
     position: absolute;
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
@@ -106,6 +107,7 @@ box-shadow:  8px 8px 32px #2b2b2b,
     top: 50%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
 
@@ -140,6 +142,7 @@ h3{
     position: absolute;
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   
