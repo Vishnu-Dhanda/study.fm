@@ -102,13 +102,6 @@ box-shadow:  8px 8px 32px #2b2b2b,
 
 
 .action-btn {
-    background-color: transparent;
-    border: 0;
-    color: #B1B1B1;
-    font-size: 30px;
-    cursor: pointer;
-    padding-right: 1px;
-
     margin: 0;
     position: absolute;
     display: inline-block;
@@ -121,6 +114,14 @@ box-shadow:  8px 8px 32px #2b2b2b,
       -ms-transform: translate(-50%, -50%);
        -o-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: 0px;
+    color: #B1B1B1;
+    font-size: 30px;
+    cursor: pointer;
+    padding-right: 1px;
+
+    
   }
 
 
