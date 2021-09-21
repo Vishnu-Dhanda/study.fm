@@ -2,11 +2,6 @@
 const musicContainer = document.getElementById('music-container');
 const playBtn = document.getElementById('play-button');
 
-
-
-
-
-
 // Play song
 function playSong() {
 	musicContainer.classList.add('play');
@@ -34,3 +29,4 @@ playBtn.addEventListener('click', () => {
 	  playSong();
 	}
   });
+
