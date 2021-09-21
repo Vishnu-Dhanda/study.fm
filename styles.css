@@ -4,6 +4,7 @@ body{
     display: flex;
     min-height: 98vh;
     flex-direction: column;
+    position: relative;
 }
 
 
@@ -43,7 +44,7 @@ img{
   
 .img-container {
     margin: 0;
-    position: absolute;
+    position: relative;
    margin: 0;
     position: absolute;
     display: inline-block;
